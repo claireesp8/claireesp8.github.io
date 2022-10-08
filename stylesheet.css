@@ -13,6 +13,21 @@
 
 }
 
+#welcome p {
+    text-align: left;
+    font-weight: bold;
+    color: cyan;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#welcome h1 {
+    text-align: center;
+    color: mediumspringgreen;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
 #welcome .special:hover {
     color: rgb(250, 237, 0);
 }
@@ -25,8 +40,8 @@
     font-weight: bold;
     width: 85%;
     margin: 8px auto;
-    border: purple;
-    border-width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
 }
 
 .fav_things_secondary {
@@ -37,9 +52,7 @@
     background-image: -ms-linear-gradient(0, rgba(255, 255, 255, .07) 50%, transparent 50%), -ms-linear-gradient(0, rgba(255, 255, 255, .13) 50%, transparent 50%), -ms-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .17) 50%), -ms-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .19) 50%);
     background-image: -o-linear-gradient(0, rgba(255, 255, 255, .07) 50%, transparent 50%), -o-linear-gradient(0, rgba(255, 255, 255, .13) 50%, transparent 50%), -o-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .17) 50%), -o-linear-gradient(0, transparent 50%, rgba(255, 255, 255, .19) 50%);
     background-image: linear-gradient(0, rgba(255, 255, 255, .07) 50%, transparent 50%), linear-gradient(0, rgba(255, 255, 255, .13) 50%, transparent 50%), linear-gradient(0, transparent 50%, rgba(255, 255, 255, .17) 50%), linear-gradient(0, transparent 50%, rgba(255, 255, 255, .19) 50%);
-}
-
-.fav_things_image {
-    width: 10 px;
-    height: auto;
+    border: 5px solid;
+    padding: 10px;
+    margin: 20px;
 }
